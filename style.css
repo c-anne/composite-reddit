@@ -1,16 +1,62 @@
 body{
-    background-color:#FEDCC9; 
+    background-color:#FEDCC9;
+    font-family: Nunito, sans-serif; 
 }
 
 .navbar{
-    display: flex;
-    flex-direction: row-reverse; 
+    display: inline-flex;
+    float: right;
+
 }
 
 .buttonlogin, .buttonsignup{
-    display:flex;
     background-color: #B6BFBA;
     margin-left: 1em;
     font-size: 1.25;
+    border-radius: 1em;
+    text-decoration: none;
+    padding:0.25em;
+}
+
+.gridmain{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.gridmain > div{
+    text-align: center;
+    padding: .5em;
+}
+
+.trendingcol{
+    background-color: #B6BFBA;
+    margin-right: 1em;
+}
+
+.sponseredcol{
+    color: #FF3E00;
+    background-color: #B6BFBA;
+    margin-right: 10em;
+}
+
+.reccomendedcol{
+    background-color: #B6BFBA;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.friendsreccol{
+    background-color: #B6BFBA;
+}
+
+.favcol{
+    background-color: #B6BFBA;
+}
+
+.upvotecol{
+    background-color: #B6BFBA;
+}
+
+.sitelogo{
     
 }
