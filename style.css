@@ -1,0 +1,16 @@
+body{
+    background-color:#FEDCC9; 
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.buttonlogin, .buttonsignup{
+    display:flex;
+    background-color: #B6BFBA;
+    margin-left: 1em;
+    font-size: 1.25;
+    
+}
