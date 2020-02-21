@@ -1,40 +1,11 @@
-body{
-    background-color:#FEDCC9;
-    font-family: Nunito, sans-serif; 
-}
-
-.navbar{
-    display: inline-flex;
-    float: right;
-
-}
-
-.buttonlogin, .buttonsignup{
-    background-color: #B6BFBA;
-    margin-left: 1em;
-    font-size: 1.25;
-    border-radius: 1em;
-    text-decoration: none;
-    padding:0.25em;
-}
-
-.gridmain{
-    display: grid;
-    grid-template-columns: 40% 40%;
-}
-
-.gridmain > div{
-    text-align: center;
-}
-
-.trendgrid > div{
+.columngrid > div{
 
     display: grid;
     grid-template-columns: repeat(autofit,minmax);
     grid-template-rows: 1fr;
 }
 
-.trendingheader{
+.columnheader{
     border-style: solid;
     margin-top: 0em;
     margin-bottom: .5em;
@@ -45,7 +16,7 @@ body{
     font-size: 3.5em;    
 }
 
-.trendingcol{
+.columncontents{
     height: auto;
     width: auto;
     margin-right: 5em;
@@ -111,36 +82,4 @@ body{
     grid-column-start: 3;
     grid-row-start: 2;
     padding: .25em;
-}
-
-.sponseredcol{
-    color: #FF3E00;
-    background-color: #B6BFBA;
-    grid-column-start: 2;
-    grid-row-start: 1;    
-}
-
-.reccomendedcol{
-    background-color: #B6BFBA;
-    margin-right: 1em;
-    margin-top: 1em;
-}
-
-.friendsreccol{
-    background-color: #B6BFBA;
-}
-
-.favcol{
-    background-color: #B6BFBA;
-}
-
-.upvotecol{
-    background-color: #B6BFBA;
-}
-
-.sitelogo{
-    display: flex;
-    max-width: 100%;
-    height: auto;
-
 }
