@@ -20,17 +20,78 @@ body{
 
 .gridmain{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .gridmain > div{
     text-align: center;
-    padding: .5em;
+}
+
+.trendgrid > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .trendingcol{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 0em;
+    margin-bottom: 5em;
+    border-radius: 1em;
+    border-style: solid;
     background-color: #B6BFBA;
+}
+
+.trendingheader{
+    border-style: solid;
+    margin-top: 0em;
+    margin-bottom: .5em;
+    margin-right: 0em;
+    background-color: #B6BFBA;
+    grid-column: span 4;
+    grid-row: 1;
+    font-size: 3.5em;    
+}
+
+.leftupvote{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.arrow{
+    width: 10%;
+    height: auto;
+}
+
+.trendimg{
+    width: 100%;
+    height: auto;
+    margin-top: 1.25em;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+}
+
+.subreddit{
+    background-color: white;
+    border-radius: 2em;
+    border-color: #FF3E00;
+    border-style: solid;
+    grid-column: 3/3;
+    grid-row: 1;
+    margin-top: 1em;
+    margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 3em;
+}
+
+.postdescription{
+    margin: 0em;
+    grid-column: 3/3;
+    grid-row: 2;
+    padding: .25em;
 }
 
 .sponseredcol{
@@ -58,5 +119,8 @@ body{
 }
 
 .sitelogo{
-    
+    display: flex;
+    max-width: 100%;
+    height: auto;
+
 }
