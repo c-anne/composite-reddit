@@ -11,12 +11,15 @@
         @import url('https://fonts.googleapis.com/css?family=Nunito:700&display=swap');
     </style>
     
-    <nav class="navbar">
-        <a href="index.html" class="buttonlogin">Log in</a>
-        <a href="index.html" class="buttonsignup">Sign in</a>
-    </nav>
+    <article>
+        <nav class="navbar">
+            <a href="index.html" class="buttonlogin">Log in</a>
+            <a href="index.html" class="buttonsignup">Sign in</a>
+        </nav>
+    </article>    
 
         <div class="gridmain">
+            
             <div class="trendgrid">
                 <h2 class="trendingheader">TRENDING</h2>
                 <div class="trendingcol">
@@ -26,13 +29,59 @@
                     <p class="postdescription">- Rant about the most annoying champions or check out updates/leaks from the community</p>
                 </div> 
             </div>
-            <div class="sponseredcol">SPONSERED</div>
-            <div class="friendsreccol">FRIENDS RECCOMENDED</div>
-            <div class="reccomendedcol">RECCOMENDED</div>
-            <div class="sitelogo"><img src="images/REDDITLOGO.jpg"></div>
+
+            <div class="sponsergrid">
+                <div class="sponsercontents">
+                    <h2 class="sponserheader">SPONSER CONTENT</h2>
+                    <img src="/images/arrowup.png" class="arrowupsponser"><p class="leftupvotesponser">6.8k</p><img src="images/arrowdown.png" class="arrowdownsponser">
+                    <img src="/images/tesla.jpg" class="sponserimg">
+                    <p class="subredditsponser">r/tesla</p>
+                    <p class="postdescriptionsponser">- The cars of the future are here and they're looking swanky</p>
+                </div> 
+            </div>
+            
+            <div class="friendsrecomgrid">
+                <h2 class="friendsrecomheader">FRIENDS RECCOMMENDED</h2>
+                <div class="friendsrecomcontents">
+                    <img src="/images/arrowup.png" class="arrowupfriendsrecom"><p class="leftupvotefriendsrecom">6.8k</p><img src="images/arrowdown.png" class="arrowdownfriendsrecom">
+                    <img src="images/pumpkins.jpg" class="friendsrecomimg">
+                    <p class="subredditfriendsrecom">r/leagueoflegends</p>
+                    <p class="postdescriptionfriendsrecom">- Rant about the most annoying champions or check out updates/leaks from the community</p>
+                </div> 
+            </div>
+            
+            <div class="reccommendedgrid">
+                <h2 class="reccommendedheader">RECOMMENDED</h2>
+                <div class="reccommendedcontents">
+                    <img src="/images/arrowup.png" class="arrowupreccommended"><p class="leftupvotereccommended">6.8k</p><img src="images/arrowdown.png" class="arrowdownreccommended">
+                    <img src="/images/icecream.jpg" class="reccommendedimg">
+                    <p class="subredditreccommended">r/leagueoflegends</p>
+                    <p class="postdescriptionreccommended">- Rant about the most annoying champions or check out updates/leaks from the community</p>
+                </div> 
+            </div>
+            
+            <div class="sitelogo"><img src="images/REDDITLOGO.jpg" class="sitelogoimg"></div>
+            
             <input type="text" placeholder="Search" class="searchbar">
-            <div class="favcol">FAVOURITE</div>
-            <div class="upvotecol">UPVOTED FRIENDS POSTS</div>
-        </div>
+            
+            <div class="upvotegrid">
+                <h2 class="upvoteheader">UPVOTED FRIENDS POST</h2>
+                <div class="upvotecontents">
+                    <img src="/images/arrowup.png" class="arrowupupvote"><p class="leftupvoteupvote">6.8k</p><img src="images/arrowdown.png" class="arrowdownupvote">
+                    <p class="subredditupvote">r/leagueoflegends</p>
+                    <p class="postdescriptionupvote">- Rant about the most annoying champions or check out updates/leaks from the community</p>
+                </div> 
+            </div>
+
+            <div class="favgrid">
+                <h2 class="favheader">FAVOURITES</h2>
+                <div class="favcontents">
+                    <img src="/images/arrowup.png" class="arrowupfav"><p class="leftupvotefav">6.8k</p><img src="images/arrowdown.png" class="arrowdownfav">
+                    <img src="/images/chicken.jpg" class="favimg">
+                    <p class="subredditfav">r/leagueoflegends</p>
+                    <p class="postdescription">- Rant about the most annoying champions or check out updates/leaks from the community</p>
+                </div> 
+            </div>
+        </div>  
 </body>
 </html>
